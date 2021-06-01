@@ -2,17 +2,24 @@
   "name": "devlife",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run build && node ./dist/index.js",
+    "build": "tsc",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "devlife"
   },
+  "bin": "./dist/index.js",
   "author": "Frederico Luz Braga",
   "license": "ISC",
   "dependencies": {
-    "tsc": "^2.0.3"
+    "jest": "^27.0.3",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "ts-jest": "^27.0.2"
   }
 }

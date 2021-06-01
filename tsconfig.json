@@ -1,0 +1,24 @@
+{ 
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    // "declarationDir": "types",
+    // "extendedDiagnostics": true,
+    // "explainFiles": false,
+    // "listFiles": false,
+    "listEmittedFiles": true,
+    "outDir": "dist",
+    // "composite": true
+    "isolatedModules": true,
+    "module": "commonjs",
+    // "sourceMap": true
+    "target": "ES6",
+    // "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true
+  },
+  "include": ["src/**/*"]
+}
