@@ -9,7 +9,7 @@
     "listEmittedFiles": true,
     "outDir": "dist",
     // "composite": true
-    "isolatedModules": true,
+    // "isolatedModules": true,
     "module": "commonjs",
     // "sourceMap": true
     "target": "ES6",
